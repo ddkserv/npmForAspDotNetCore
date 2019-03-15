@@ -1,0 +1,33 @@
+{
+  "version": "1.0.0",
+  "name": "asp.net",
+  "private": true,
+  "main": "npmfile.js",
+  "scripts": {
+    "cleanLib": "node npmfile cleanLib()",
+    "copyLib": "node npmfile copyLib()",
+    "prepare": "npm run cleanLib && npm run copyLib"
+  },
+  "dependencies": {
+    "bootstrap": "3.3.6",
+    "flexslider": "^2.7.1",
+    "jquery": "3.3.1",
+    "jquery-ui-dist": "^1.12.1",
+    "jquery-validation": "1.14.0",
+    "jquery-validation-unobtrusive": "3.2.6",
+    "respond.js": "1.4.2",
+    "semantic-ui-button": "2.2.3",
+    "semantic-ui-dropdown": "2.2.3",
+    "semantic-ui-icon": "2.2.3",
+    "semantic-ui-label": "2.2.3",
+    "semantic-ui-transition": "2.2.3",
+    "sizzle": "2.0.0",
+    "tooltipster": "4.1.0"
+  },
+  "devDependencies": {
+    "del": "3.0.0",
+    "recursive-copy": "2.0.9",
+    "json-parser": "1.1.5"
+  },
+  "author": "ddkserv"
+}
