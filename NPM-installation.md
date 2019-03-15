@@ -2,11 +2,11 @@
 
 Install NPM on Windows. Now the version has to be compatible with the version with Hosted VS2017.
 
-Current version for VS2017 (19-12-2017) is:
+Current version for VS2017 (15-03-2019) is:
 
-`Node.js: Version: 8.11.4`
+`Node.js: Version: 10.15.2`
 
-`NPM: Version: 5.6.0`
+`NPM: Version: 6.8.0`
 
 <https://github.com/Microsoft/azure-pipelines-image-generation/blob/master/images/win/Vs2017-Server2016-Readme.md>
 
@@ -32,8 +32,8 @@ You can get it here: [NVM-windows](https://github.com/coreybutler/nvm-windows/re
 
 1. Download NVM-windows
 2. Install NVM-windows
-3. nvm install 8.11.4
-4. nvm use 8.11.4
+3. nvm install 10.15.2
+4. nvm use 10.15.2
 
 Please note the PATH will include NPM and node.
 Read more [here.](https://github.com/coreybutler/nvm-windows)
@@ -44,4 +44,4 @@ Read more [here.](https://github.com/coreybutler/nvm-windows)
 2. Navigate to path where your `.csproj` is located
 3. `npm -v`
 
-If output is 5.6.0 then all is good.
+If output is 6.4.1 or above then all is good.

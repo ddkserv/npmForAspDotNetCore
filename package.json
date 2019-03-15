@@ -9,7 +9,7 @@
     "prepare": "npm run cleanLib && npm run copyLib"
   },
   "dependencies": {
-    "bootstrap": "3.3.6",
+    "bootstrap": "3.4.1",
     "flexslider": "^2.7.1",
     "jquery": "3.3.1",
     "jquery-ui-dist": "^1.12.1",
